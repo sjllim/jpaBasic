@@ -1,6 +1,6 @@
-package com.kh.jpa.repository;
+package com.kh.jpa.a_basic_concepts.repository;
 
-import com.kh.jpa.entity.Person;
+import com.kh.jpa.a_basic_concepts.entity.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

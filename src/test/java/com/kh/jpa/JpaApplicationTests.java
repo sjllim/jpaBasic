@@ -1,7 +1,7 @@
 package com.kh.jpa;
 
-import com.kh.jpa.entity.Person;
-import com.kh.jpa.repository.PersonRepository;
+import com.kh.jpa.a_basic_concepts.entity.Person;
+import com.kh.jpa.a_basic_concepts.repository.PersonRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

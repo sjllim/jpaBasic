@@ -1,4 +1,4 @@
-package com.kh.jpa.entity;
+package com.kh.jpa.a_basic_concepts.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
