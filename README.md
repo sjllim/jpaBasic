@@ -1,0 +1,2 @@
+# jpaBasic
+jpa concept summary
