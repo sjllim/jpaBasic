@@ -15,7 +15,10 @@ public class Department {
 
     /*
      * * @OneToMany : 일대다 관계.
-     *
+     */
+    /**
+     * 부서의 직원목록 관련 매핑
+     * 부서는 여러명의 직원이 있을 수 있음
      */
     @OneToMany
     @JoinColumn(name="department_id")

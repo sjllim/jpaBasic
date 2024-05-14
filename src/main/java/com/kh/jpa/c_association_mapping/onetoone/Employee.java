@@ -18,6 +18,10 @@ public class Employee {
      * * @OneToOne : 일대일 관계.
      *   - @JoinColumn : 외래키 컬럼 지정
      */
+    /**
+     * 직원의 주차장소 관련 매핑.
+     * 직원은 각자 1개의 주차 장소를 소유할 수 있음
+     */
     @OneToOne
     @JoinColumn(name = "parking_spot_id")
     private ParkingSpot parkingSpot;
